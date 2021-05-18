@@ -14,16 +14,16 @@ This is a Typora Theme, The main reference is the [Drake](https://theme.typora.i
 ![image](https://github.com/GitWaHa/TyporaTheme/blob/master/images/title.png)
 
 - font
-![](https://waha-note.oss-cn-beijing.aliyuncs.com/PicGo/20210518110840.png)
+![](https://github.com/GitWaHa/TyporaTheme/blob/master/images/font.png)
 
 - list
-![](https://waha-note.oss-cn-beijing.aliyuncs.com/PicGo/20210518110859.png)
+![](https://github.com/GitWaHa/TyporaTheme/blob/master/images/list.png)
 
 - table
-![](https://waha-note.oss-cn-beijing.aliyuncs.com/PicGo/20210518110917.png)
+![](https://github.com/GitWaHa/TyporaTheme/blob/master/images/table.png)
 
 - code
-![](https://waha-note.oss-cn-beijing.aliyuncs.com/PicGo/20210518110931.png)
+![](https://github.com/GitWaHa/TyporaTheme/blob/master/images/code.png)
 
 - math
-![](https://waha-note.oss-cn-beijing.aliyuncs.com/PicGo/20210518110959.png)
+![](https://github.com/GitWaHa/TyporaTheme/blob/master/images/math.png)
