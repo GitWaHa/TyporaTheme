@@ -11,7 +11,7 @@ This is a Typora Theme, The main reference is the [Drake](https://theme.typora.i
 
 ## Display
 - title
-![image](https://waha-note.oss-cn-beijing.aliyuncs.com/PicGo/20210518110713.png)
+![image](https://github.com/GitWaHa/TyporaTheme/blob/master/images/title.png)
 
 - font
 ![](https://waha-note.oss-cn-beijing.aliyuncs.com/PicGo/20210518110840.png)
