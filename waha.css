@@ -7,6 +7,7 @@
 
     --primary-color: #f22f27;
 
+    /* 中性色 */
     --mid-1: #ffffff;
     --mid-2: #fafafa;
     --mid-3: #f5f5f5;
@@ -20,7 +21,7 @@
     --mid-11: #1f1f1f;
     --mid-12: #141414;
     --mid-13: #000000;
-
+    /* 主题色 */
     --main-1: #fff3f0;
     --main-2: #ffd4cc;
     --main-3: #ffafa3;
@@ -32,6 +33,7 @@
     --main-9: #80010a;
     --main-10: #590009;
 
+    /* 自定义 */
     --my-title: #f33b0d;
 }
 
@@ -107,7 +109,7 @@ h6:hover a.anchor {
 }
 
 
-/* title */
+/* 标题样式 */
 h1 tt,
 h1 code {
     font-size: inherit !important;
@@ -152,15 +154,37 @@ h1 {
     color: var(--my-title);
 }
 
+/* h1:after {
+    content: '';
+    display: block;
+    margin: 0.2em auto 0;
+    width: 200px;
+    height: 2px;
+    border-bottom: 2px solid var(--main-6);
+} */
+
+/* h2 {
+    margin: 2em auto 1.4em;
+    line-height: 1.4;
+    font-size: 1.8em;
+    border-bottom: 1px solid var(--main-6);
+} */
 h2 {
     font-size: 1.75em;
     line-height: 1.43;
     margin: 1.6em auto 1.2em;
     padding-left: 9px;
+    /* display: inline-block; */
     border-left: 5px solid #f22f27;
+    /* border-right: 1px solid var(--main-6);
+    border-top: 1px solid var(--main-6); */
     border-bottom: 1px solid var(--main-6);
 }
-
+/* 
+h2::before {
+    content: ''!important;
+    color: #f22f27;
+} */
 
 h3 {
     font-size: 1.4em;
@@ -171,7 +195,7 @@ h3 {
 }
 
 
-/* title icon */
+/* 三级四级标题点击后左边的提示图标 */
 #write>h3.md-focus:before,
 #write>h4.md-focus:before {
     width: auto;
@@ -185,6 +209,8 @@ h4 {
     font-size: 1.2em;
     padding-left: 6px;
     padding-right: 6px;
+    /* display: inline-block; */
+    /* border: 1px solid var(--main-6); */
     border-left: 3px solid var(--main-6);
 }
 
@@ -200,6 +226,7 @@ h5 {
     font-size: 1rem;
     padding-left: 6px;
     padding-right: 6px;
+    /* display: inline-block; */
     border-left: 2px solid var(--main-6);
 }
 
@@ -215,6 +242,7 @@ h6 {
     font-size: 1em;
     padding-left: 6px;
     padding-right: 6px;
+    /* display: inline-block; */
     border-left: 1px solid var(--main-6);
 }
 
@@ -389,7 +417,6 @@ table tr td:last-child {
     border-right: none;
 }
 
-/*inline math*/
 [md-inline='inline_math'] {
     color: blue;
     font-size: 100%;
@@ -411,10 +438,11 @@ table tr td:last-child {
 
 /*code snippet*/
 #write code, tt {
+    background-color: #fcf808;
     margin: 0 2px;
     border-radius: 2px;
     font-family: initial !important;
-    color: var(--drake-highlight);
+    /* color: var(--drake-highlight); */
 }
 
 /* heighlight. */
@@ -520,7 +548,7 @@ table tr td:last-child {
 
 .typora-quick-open-item {
 	font-size: 1rem !important;
-	height: 48px;
+	height: 48px; 
     padding-left: 8px;
     padding-top: 4px;
 }
@@ -551,7 +579,7 @@ footer {
     background-color: #fafafa;
     font-size: 1rem;
     background-color: var(--side-bar-bg-color);
-}
+} 
 
 .md-lang {
     color: #b4654d;
